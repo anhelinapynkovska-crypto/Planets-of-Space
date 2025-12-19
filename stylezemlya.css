@@ -1,0 +1,96 @@
+/* stylezemlya.css */
+body {
+margin: 0;
+background: #071430;
+font-family: "Courier New", monospace;
+color: white;
+}
+
+
+.container {
+width: 90%;
+margin: auto;
+}
+
+
+.block {
+margin: 40px 0;
+position: relative;
+}
+
+.back-btn {
+    position: fixed;        /* щоб завжди була вгорі */
+    top: 20px;
+    left: 20px;
+    padding: 10px 20px;
+    background: #b0ff40;
+    color: #000;
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.4);
+    transition: 0.2s;
+}
+
+.back-btn:hover {
+    background: #d6ff7a;
+    transform: scale(1.05);
+}
+
+.site-title {
+  font-family: "Courier New", Courier, monospace; /* можеш замінити на іншу гарну (наприклад, рукописну) */
+  font-size: 100px;           /* розмір заголовка */
+  color: #b0ff40;            /* салатовий відтінок, як на фото */
+  margin: 20px 0 10px 0;
+  letter-spacing: 20px;
+  text-transform: none;
+  line-height: 1;
+  text-shadow: 0 3px 0 rgba(0,0,0,0.35), 0 6px 20px rgba(0,0,0,0.45);
+  display: inline-block;     /* щоб можна було легко зміщувати поряд з картинкою */
+  padding: 6px 12px;
+  border-radius: 8px;
+  background: rgba(0,0,0,0.08); /* легкий фон для контрасту */
+}
+
+
+h1 {
+font-size: 50px;
+color: #b0ff40;
+margin-bottom: 20px;
+}
+
+
+p {
+font-size: 30px;
+line-height: 1.6;
+width: 45%;
+}
+
+
+.img-left {
+width: 300px;
+float: left;
+margin-right: 30px;
+}
+
+
+.img-right {
+width: 600px;
+float: right;
+margin: 250px;
+}
+
+
+.img-center {
+width: 400px;
+display: block;
+margin: 20 auto 20px auto;
+}
+
+
+.block::after {
+content: "";
+display: block;
+clear: both;
+}

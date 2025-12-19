@@ -1,0 +1,68 @@
+body {
+margin: 0;
+font-family: "Courier New", monospace;
+background-color: #0d1b3d;
+color: white;
+}
+
+
+.back-btn {
+position: absolute;
+top: 20px;
+left: 20px;
+padding: 10px 20px;
+background: #ffffff22;
+color: white;
+text-decoration: none;
+border-radius: 8px;
+font-size: 18px;
+transition: 0.3s;
+}
+
+
+.back-btn:hover {
+background: #ffffff44;
+}
+
+
+.container {
+display: flex;
+justify-content: space-between;
+padding: 50px;
+}
+
+
+.left-block, .right-block {
+width: 48%;
+}
+
+
+.img-top, .img-middle {
+width: 40%;
+display: block;
+margin: 10px;
+}
+
+
+.saturn-img {
+width: 40%;
+display: block;
+margin: 0 auto;
+}
+
+
+.title {
+text-align: center;
+font-size: 48px;
+margin-top: 10px;
+margin-bottom: 30px;
+transform: rotate(-10deg);
+}
+
+
+.text-block {
+font-size: 20px;
+line-height: 1.6;
+margin-bottom: 30px;
+white-space: pre-line;
+}

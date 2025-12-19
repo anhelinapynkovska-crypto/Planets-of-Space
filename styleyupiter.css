@@ -1,0 +1,69 @@
+body {
+margin: 0;
+padding: 0;
+background: #0b1430;
+font-family: "Courier New", monospace;
+color: #ffffff;
+}
+
+
+.back-btn {
+position: absolute;
+top: 20px;
+left: 20px;
+background: #ffffff33;
+padding: 10px 20px;
+border-radius: 10px;
+text-decoration: none;
+color: #fff;
+font-size: 18px;
+backdrop-filter: blur(5px);
+transition: 0.3s;
+}
+
+
+.back-btn:hover {
+background: #ffffff55;
+}
+
+
+.container {
+display: flex;
+gap: 40px;
+padding: 80px 40px;
+}
+
+
+.left-block {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 30%;
+}
+
+
+.title {
+font-size: 60px;
+margin: 20px 0;
+font-weight: bold;
+}
+
+
+.planet-img {
+width: 400px;
+height: auto;
+}
+
+
+.text-block {
+width: 45%;
+font-size: 22px;
+line-height: 1.6;
+}
+
+
+.rocket-img {
+width: 230px;
+height: auto;
+margin-top: 150px;
+}

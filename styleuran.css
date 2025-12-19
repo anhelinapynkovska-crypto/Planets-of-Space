@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    background: #0a1333;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+}
+
+.back-btn {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 18px;
+    background: rgba(255,255,255,0.15);
+    border-radius: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+
+    z-index: 9999; /* ДУЖЕ ВАЖЛИВО! */
+}
+
+.container {
+    width: 95%;
+    margin: auto;
+    position: relative;
+}
+
+/* Заголовок */
+.title-uran {
+    text-align: center;
+    font-size: 70px;
+    margin-top: 10px;
+    font-weight: bold;
+    letter-spacing: 0px;
+}
+
+/* Планета */
+.planet-img {
+    width: 500px;
+    position: absolute;
+    top: -50px;
+    left: 0;
+}
+
+/* Стікери */
+.sticker-img1 {
+    position: absolute;
+    width: 100px;
+
+    /* Під текстом text-block2 */
+    top: 500px;     /* можна регулювати */
+    left: 1660px;     /* стікер зліва */
+
+    z-index: 5;
+}
+
+.sticker-img3 {
+    position: absolute;
+    width: 140px;
+    right: 500px;
+    bottom: 180px;
+}
+
+/* УНІКАЛЬНІ стилі для кожного текстового блоку */
+.text-block1 {
+    width: 100%;
+    font-size: 25px;
+    line-height: 1.5;
+    float: left;
+    margin-top: 38px;
+}
+
+.text-block2 {
+    width: 100%;
+    font-size: 30px;
+    line-height: 1.5;
+    float: left;
+    margin-top: 20px;
+}
+
+.text-block3 {
+    width: 42%;
+    font-size: 20px;
+    line-height: 1.5;
+    float: right;
+    margin-top: 10px;
+}
+
+.uran-voyager-block {
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/* Фото справа */
+.uran-voyager-img {
+    width: 485px;      /* можна змінити на будь-яке значення */
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Текст зліва — та ж ширина, що і фото */
+.uran-voyager-text {
+    width: 500px;      /* ТА САМА ширина що й фото! */
+    font-size: 15px;
+    line-height: 1.5;
+}

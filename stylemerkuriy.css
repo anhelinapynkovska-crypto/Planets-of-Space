@@ -1,0 +1,84 @@
+body {
+margin: 0;
+background: #06123a;
+font-family: "Courier New", monospace;
+color: white;
+}
+
+.back-btn {
+position: fixed;
+top: 20px;
+left: 20px;
+padding: 10px 18px;
+background: #7fffd4;
+color: #000;
+font-family: "Courier New", monospace;
+font-size: 18px;
+text-decoration: none;
+border-radius: 10px;
+box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+transition: 0.2s ease;
+z-index: 1000;
+}
+
+
+.back-btn:hover {
+background: #bfffea;
+transform: scale(1.05);
+}
+
+
+.page {
+display: flex;
+padding: 30px;
+}
+
+
+.column {
+padding: 20px;
+}
+
+
+.left { width: 30%; }
+.center { width: 35%; text-align: center; }
+.right { width: 35%; }
+
+
+.title {
+font-size: 48px;
+color: #7fffd4;
+margin: 15px 0;
+}
+
+
+.text {
+font-size: 18px;
+line-height: 1.6;
+margin-bottom: 20px;
+}
+
+
+.planet {
+width: 300px;
+display: block;
+margin-bottom: 15px;
+}
+
+
+.cartoon {
+width: 180px;
+margin: 20px auto;
+}
+
+
+.satellite {
+width: 250px;
+margin: 10px auto 30px auto;
+}
+
+
+.ship {
+width: 350px;
+display: block;
+margin: 30px auto;
+}

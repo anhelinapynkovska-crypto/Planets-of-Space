@@ -1,0 +1,74 @@
+body {
+    background-color: #06123d;
+    color: #ffffff;
+    font-family: 'Georgia', serif;
+}
+
+/* КНОПКА НАЗАД */
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    padding: 10px 16px;
+    background-color: #071744;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.back-button:hover {
+    background-color: #2a55ff;
+}
+
+/* КОНТЕЙНЕР */
+.container {
+    display: flex;
+    gap: 40px;
+    padding: 80px 60px;
+}
+
+/* КОЛОНКИ */
+.column {
+    flex: 1;
+}
+
+.left h1 {
+    font-size: 48px;
+    margin: 30px 0;
+}
+
+.column p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* ПЛАНЕТИ */
+.planet {
+    width: 350px;
+    display: block;
+    margin: 20px auto;
+}
+
+.top {
+    margin-bottom: 30px;
+}
+
+.bottom {
+    width: 600px;
+    margin-top: 40px;
+}
+
+/* ХОЛОД */
+.cold img {
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+/* ПРАВА КОЛОНКА */
+.telescopee {
+    width: 220px;
+    display: block;
+    margin: 0 auto 30px auto;
+}

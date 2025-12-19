@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #081538; /* темно-синій фон */
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.title {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 64px;
+    color: white;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+.authors {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    font-size: 18px;
+    color: white;
+    line-height: 1.4;
+    text-align: right;
+}
+
+/* Астронавт */
+.astronaut {
+    position: absolute;
+    left: -50px;
+    bottom: 50px;
+    height: 600px;
+}
+
+/* Телескоп */
+.telescope {
+    position: absolute;
+    right: 10px;
+    bottom: 150px;
+    height: 450px;
+}
+
